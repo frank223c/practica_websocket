@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Practica Web Sockets</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>Web Sockets</h1>
+	<div id="messages"></div>
+	<br/>
+	<form onsubmit="return addMessage(this)">
+		<input type="text" id="username" placeholder="Tu nombre">
+		<input type="text" id="texto" placeholder="Texto">
+		<input type="submit" value="Enviar!">
+	</form>
+</body>
+</html>
